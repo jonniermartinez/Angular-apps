@@ -1,0 +1,13 @@
+input{
+    text-align: center;
+}
+.form-control-lg{
+    font: 1.8rem;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.cursor{
+    cursor: pointer;
+}
