@@ -1,1 +1,9 @@
-<h1>Hola mundo </h1>
+<div class="jumbotron text-center">
+  <button class="btn btn-success btn-lg" (click)="tirarDados()">Tirar dados</button>
+  <br>
+  <img class="img" [src]='dadoIzq'>
+  <img class="img" [src]='dadoDer'>
+  <h1 *ngIf="numero1 === numero2">
+    <span style="background-color: green; color: white; padding: 10px;">GANASTE</span>
+  </h1>
+</div>
